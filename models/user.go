@@ -5,3 +5,7 @@ type User struct {
 	Email        string
 	PasswordHash string
 }
+
+type UserService struct {
+	DB *sql.DB
+}
