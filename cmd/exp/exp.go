@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	cfg := models.DefaultPostGresConfig()
+	cfg := models.DefaultPostgresConfig()
 	db, err := models.Open(cfg)
 	if err != nil {
 		panic(err)
